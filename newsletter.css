@@ -1,0 +1,122 @@
+.body {
+  display: flex;
+  margin: 0;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+
+.imageContainer {
+  display: flex;
+}
+
+.statsImage {
+  width: 100%;
+}
+.nonImageContainer {
+  padding: 20px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.title {
+  font-size: 36;
+  color: hsl(234, 29%, 20%);
+}
+
+ul {
+  padding: 0;
+}
+li {
+  margin: 0;
+  padding: 8px 0 8px 40px;
+  list-style: none;
+  background-image: url("/assets/images/icon-success.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+  font-size: 16px;
+}
+
+li::marker {
+  padding-top: 0;
+}
+
+.form {
+  padding-top: 15px;
+}
+
+.emailLabelandInputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.emailLabel {
+  font-size: 11;
+  color: hsl(234, 29%, 20%);
+  font-weight: 700;
+}
+
+.emailInput {
+  padding: 15px;
+  border-radius: 7.5px;
+  border-color: hsl(231, 7%, 60%) 1px solid;
+  margin-bottom: 20px;
+}
+
+.subButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  background-color: hsl(234, 29%, 20%);
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.subButton:hover {
+  background-color: hsl(4, 100%, 67%);
+}
+
+@media (min-width: 48em) {
+  .body {
+    margin: 40px;
+    background-color: hsl(234, 29%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20 20 20 50;
+  }
+  .imageContainer {
+    display: flex;
+  }
+  .statsImage {
+    height: 100%;
+  }
+  .nonImageContainer {
+    padding: 20px;
+    padding-top: 30px;
+  }
+  .title {
+    font-size: 48;
+    color: hsl(234, 29%, 20%);
+  }
+}

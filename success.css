@@ -1,0 +1,123 @@
+@media (max-width: 48em) {
+  .body {
+    display: flex;
+    padding: 120 10 40 10;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .boxContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  .imageSuccess {
+    width: 20%;
+    height: 20%;
+  }
+
+  .title {
+    color: hsl(234, 29%, 20%);
+    font-size: 36;
+  }
+
+  .description {
+    color: hsl(234, 29%, 20%);
+    font-weight: 400;
+  }
+
+  .email {
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .dismissButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17.5px;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .dismissButton:hover {
+    background-color: hsl(4, 100%, 67%);
+  }
+}
+
+@media (min-width: 48em) {
+  .body {
+    display: flex;
+    margin: 50px;
+    font-family: "Roboto", sans-serif;
+    background-color: hsl(234, 29%, 20%);
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxContainer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 70px;
+    border-radius: 30px;
+  }
+
+  .imageSuccess {
+    display: flex;
+    align-items: start;
+    width: 15%;
+    height: 15%;
+  }
+  .title {
+    color: hsl(234, 29%, 20%);
+    font-size: 54;
+  }
+
+  .description {
+    color: hsl(234, 29%, 20%);
+    font-weight: 400;
+    font-size: 20;
+    padding-bottom: 50px;
+  }
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .email {
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .dismissButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17.5px;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .dismissButton:hover {
+    background-color: hsl(4, 100%, 67%);
+  }
+}
